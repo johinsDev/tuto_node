@@ -6,7 +6,10 @@ var http = require("http"),
 fs.readFile('./index.html' , function (err , html) {
 
     http.createServer( function (request , response) {
-        response.write(html);
+        response.writeHead(200 , {
+            'Content-type' : 'application/json'
+        });
+        response.write(JSON.stringify({'Nombre' : 'johan' , 'username' : 'Johins'}));
         response.end();
     }).listen("8080");
 

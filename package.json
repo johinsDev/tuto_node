@@ -1,0 +1,22 @@
+{
+  "name": "tuto_node",
+  "version": "0.0.1",
+  "description": "Hola mundo con express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johinsDev/tuto_node.git"
+  },
+  "author": "JohinsDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johinsDev/tuto_node/issues"
+  },
+  "homepage": "https://github.com/johinsDev/tuto_node#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
